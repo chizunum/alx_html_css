@@ -38,3 +38,37 @@ article, aside {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
 }
+
+body {
+  background-color: #fffbe6;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1em;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+article {
+  background-color: #fdfdfd;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+aside {
+  background-color: #f1f1f1;
+  padding: 1em;
+  border-left: 2px solid #ccc;
+}
+.logo {
+  font-size: 2em;
+  padding-right: 1em;
+}
