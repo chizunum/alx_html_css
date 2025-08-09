@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #4CAF50;
+    --link-hover: #FF6565;
+    --text-color: #ffffff;
+    --max-width: 1000px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--text-color);
+}
+.hero{
+     background-image: url(images/headphones_hero_1.jpg);
+     padding-bottom: 50px;
+}
+.navigation{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 220px;
+    gap: 500px;
+}
+.navigation img{
+    width: 120px;
+    height: 30px;
+}
+.navigation ul{
+    display: flex;
+    gap: 30px;
+}
+.navigation li{
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+}
+.navigation a:hover,
+.navigation a:active{
+    color: #FF6565;
+}
+.hero-object{
+    margin-top: 300px;
+}
+.hero-object h1{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero-object p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero-object button{
+    margin-top: 20px;
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #FF6565;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid  #FF6565 ;
+}
+.hero-object button:hover,
+.hero-object button:active{
+    opacity: 0.9;
+    background-color: #FF6565;
+}
+.hero-object blockquote{
+    margin-top: 60px;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+@media(max-width: 480px){
+    .navigation ul{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .hero-object h1{
+        font-size: 2rem;
+    }
+    .hero-object p{
+        font-size: 1rem;
+    }
+}
