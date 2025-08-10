@@ -95,6 +95,102 @@ body{
     line-height: 1.6;
     font-size: 12px;
 }
+.section-one{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-one h2{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.section-one blockquote{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.section-one-a{
+    margin-top: 100px;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+}
+.section-object{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object h2{
+    font-size: 15px;
+}
+.section-object span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-1 h2{
+    font-size: 15px;
+}
+.section-object-1 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-2 h2{
+    font-size: 15px;
+}
+.section-object-2 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-3 h2{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section-object-3 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 @media(max-width: 480px){
     .navigation{
         flex-direction: column;
@@ -113,5 +209,8 @@ body{
     }
     .hero-object h1{
         font-size: 1.5rem;
+    }
+    .section-one-a{
+        flex-direction: column;
     }
 }

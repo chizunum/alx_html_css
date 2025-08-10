@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #4CAF50;
+    --link-hover: #FF6565;
+    --text-color: #ffffff;
+    --max-width: 1000px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--text-color);
+}
+.hero{
+     background-image: url(images/headphones_hero_1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     overflow: hidden;
+     padding-bottom: 50px;
+}
+.hero img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.navigation{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    gap: 500px;
+    flex-wrap: wrap;
+}
+.navigation img{
+    width: 120px;
+    height: 30px;
+}
+.navigation ul{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.navigation li{
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+}
+.navigation a:hover,
+.navigation a:active{
+    color: #FF6565;
+}
+.hero-object{
+    margin-top: 300px;
+    text-align: center;
+}
+.hero-object h1{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero-object p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero-object button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #FF6565;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid  #FF6565 ;
+}
+.hero-object button:hover,
+.hero-object button:active{
+    opacity: 0.9;
+    background-color: #FF6565;
+}
+.hero-object blockquote{
+    margin-top: 60px;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.section-one{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-one h2{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.section-one blockquote{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.section-one-a{
+    margin-top: 100px;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+}
+.section-object{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object h2{
+    font-size: 15px;
+}
+.section-object span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-1 h2{
+    font-size: 15px;
+}
+.section-object-1 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-2 h2{
+    font-size: 15px;
+}
+.section-object-2 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+}
+.section-object-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+.section-object-3 h2{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section-object-3 span{
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section-two{
+    background-image: url(images/headphones_hero_2.jpg);
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     overflow: hidden;
+}
+.section-two h2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section-two blockquote{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 30%;
+    max-width: 40%;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.section-hexagon{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.hexagon-1{
+    display: block;
+    position: relative;
+}
+.pentagon{
+    width: 150px;
+    height: 150px;
+    background: #FF6565;
+    clip-path: polygon(
+        50% 0%,
+        100% 38%,
+        82% 100%,
+        18% 100%,
+        0% 38%
+    );
+}
+.hexagon-1 h2{
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 40px;
+}
+.hexagon-1 p{
+    font-size: 10px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+.hexagon-2{
+    display: block;
+    position: relative;
+}
+.hexagon-2 h2{
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 40px;
+}
+.hexagon-2 p{
+    font-size: 10px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+.hexagon-3{
+    display: block;
+    position: relative;
+}
+.hexagon-3 h2{
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 40px;
+}
+.hexagon-3 p{
+    font-size: 10px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+.hexagon-4{
+    display: block;
+    position: relative;
+}
+.hexagon-4 h2{
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 40px;
+}
+.hexagon-4 p{
+    font-size: 10px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+.section-contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.section-contact h2{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact-form label{
+    color: black;
+    margin-left: 30%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-form input,
+.contact-form textarea{
+    margin-left: 30%;
+    width: 100%;
+    max-width: 40%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn{
+    text-align: center;
+}
+.contact-form button{
+  
+    margin-top: 30px;
+    
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #FF6565;
+    color: white;
+    border: 1px solid #FF6565;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+.contact-form button:hover,
+.contact-form button:active{
+    opacity: 0.9;
+}
+footer{
+    background-color: rgb(0, 0, 28);
+}
+.section-footer{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.section-footer img{
+    width: 120px;
+    height: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media(max-width: 480px){
+    .navigation{
+        flex-direction: column;
+        justify-content:center;
+        gap: 10px;
+        height: 300px;
+        align-items: center;
+    }
+    .navigation ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-object{
+        flex-direction: column;
+    }
+    .hero-object h1{
+        font-size: 1.5rem;
+    }
+    .section-one-a{
+        flex-direction: column;
+    }
+    .section-hexagon{
+        flex-direction: column;
+    }
+}
